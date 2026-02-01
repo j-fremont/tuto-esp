@@ -1,18 +1,43 @@
 ## Tutoriels ESP
 
-+ Pour l'ESP8266-01, connecter l'OPEN-SMART USB to Esp-01 Adapter au PC.
-
-Positionner le switch en mode Prog pour le download, et Uart pour le serial monitor.
-
-+ Pour l'ESP8266-12, faire le montage suivant.
-
-https://www.instructables.com/ESP-12F-ESP8266-Module-Minimal-Breadboard-for-Flas/
-
-### Liste des tutos.
-
 + wifi : Connecter au Wifi
 + ntp : Connecter à un serveur NTP
 + mqtt : Connecter à un serveur MQTT
 + dht11_in_mqtt : Envoyer les mesures DHT11 à un serveur MQTT
 + bmp280_in_mqtt : Envoyer les mesures BMP280 à un serveur MQTT
++ inside : Capteurs utilisés pour l'intérieur
++ outside : Capteurs utilisés pour l'extérieur
+
+## Utilisation de l'IDE Arduino pour les ESP8266
+
+Pour ajouter l'ESP8266 à l'IDE Arduino.
+
++ Sur https://github.com/esp8266/Arduino/blob/master/README.md.
++ Dans les Préférences de l'IDE Arduino, ajouter l'URL https://arduino.esp8266.com/stable/package_esp8266com_index.json.
++ Dans Outils, Gestionnaire de cartes, Installer ESP8266.
+
+Voir https://www.fais-le-toi-meme.fr/fr/electronique/tutoriel/programmes-arduino-executes-sur-esp8266-arduino-ide.
+
+## ESP8266-12
+
+![Pictures/ESP8266_12X.jpg](https://github.com/j-fremont/tuto-esp/blob/master/Pictures/ESP8266_12X.jpg)
+
+![pictures/ESP8266_12X_I2C.png](https://github.com/j-fremont/tuto-esp/blob/master/pictures/ESP8266_12X_I2C.png)
+
+Pour flasher un sketch sur l'ESP8266-12, voir https://www.instructables.com/id/ESP-12F-ESP8266-Module-Minimal-Breadboard-for-Flas/.
+
+![pictures/ESP8266_flash.png](https://github.com/j-fremont/tuto-esp/blob/master/pictures/ESP8266_flash.png)
+
+Utiliser le montage et téléverser.
+
+1. Avant la fin de la compilation, rester appuyer sur le bouton Flash.
+2. Puis pendant "Connecting........_____....._____....._____....._____....._", appui bref sur le bouton Reset.
+3. A la fin de "Wrote XXXXXX bytes...", relacher le bouton Flash.
+
+Pour mettre les ESP8266 en mode deep sleep, voir https://projetsdiy.fr/esp8266-test-mode-deep-sleep-reveil-wakeup-detecteur-mouvement-pir/.
+
+## Autres liens.
+
++ https://www.instructables.com/id/Minitaure-Weather-Station-ESP8266/
+
 
