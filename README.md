@@ -20,7 +20,7 @@ Voir https://www.fais-le-toi-meme.fr/fr/electronique/tutoriel/programmes-arduino
 
 ## ESP8266-12
 
-![Pictures/ESP8266_12X.jpg](https://github.com/j-fremont/tuto-esp/blob/master/Pictures/ESP8266_12X.jpg)
+![Pictures/ESP8266_12X.jpg](https://github.com/j-fremont/tuto-esp/blob/master/Pictures/ESP8266_12X.jpg?raw=true)
 
 ![Pictures/ESP8266_12X_I2C.png](https://github.com/j-fremont/tuto-esp/blob/master/Pictures/ESP8266_12X_I2C.png)
 
