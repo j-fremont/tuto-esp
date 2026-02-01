@@ -38,11 +38,11 @@ Pour mettre les ESP8266 en mode deep sleep, voir https://projetsdiy.fr/esp8266-t
 
 ## ESP8266-01
 
-![pictures/ESP-01-Pin-Out.png](https://github.com/j-fremont/home-control/blob/main/Pictures/ESP-01-Pin-Out.png)
+![Pictures/ESP-01-Pin-Out.png](https://github.com/j-fremont/tuto-esp/blob/main/Pictures/ESP-01-Pin-Out.png)
 
 Pour programmer l'ESP8266-01, utiliser un adaptateur USB to ESP-01.
 
-![pictures/usb-esp01-adapter.jpg](https://github.com/j-fremont/home-control/blob/main/Pictures/usb-esp01-adapter.jpg)
+![Pictures/usb-esp01-adapter.jpg](https://github.com/j-fremont/tuto-esp/blob/main/Pictures/usb-esp01-adapter.jpg)
 
 La connexion Wifi fonctionne les premiers temps mais plus ensuite. On finit par avoir une adresse en 169.254 qui est l'adresse attribuée quand le serveur DHCP ne répond pas.
 
