@@ -36,6 +36,18 @@ Utiliser le montage et téléverser.
 
 Pour mettre les ESP8266 en mode deep sleep, voir https://projetsdiy.fr/esp8266-test-mode-deep-sleep-reveil-wakeup-detecteur-mouvement-pir/.
 
+## ESP8266-01
+
+![pictures/ESP-01-Pin-Out.png](https://github.com/j-fremont/home-control/blob/main/Pictures/ESP-01-Pin-Out.png)
+
+Pour programmer l'ESP8266-01, utiliser un adaptateur USB to ESP-01.
+
+![pictures/usb-esp01-adapter.jpg](https://github.com/j-fremont/home-control/blob/main/Pictures/usb-esp01-adapter.jpg)
+
+La connexion Wifi fonctionne les premiers temps mais plus ensuite. On finit par avoir une adresse en 169.254 qui est l'adresse attribuée quand le serveur DHCP ne répond pas.
+
+La solution est d'attribuer une IP fixe. Voir ici https://arduino.stackexchange.com/questions/78604/esp8266-wifi-not-connecting-to-internet-without-static-ip.
+
 ## Autres liens.
 
 + https://www.instructables.com/id/Minitaure-Weather-Station-ESP8266/

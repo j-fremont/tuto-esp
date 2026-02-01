@@ -1,5 +1,7 @@
 ## Connecter à un serveur MQTT
 
+Test de la connexion au serveur MQTT sur 192.168.1.10.
+
 Installer PubSubClient.
 
 ```
